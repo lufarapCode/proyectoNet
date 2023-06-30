@@ -1,0 +1,6 @@
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.ExternalService\bin\Debug\Infra.ExternalService.dll
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.ExternalService\bin\Debug\Infra.ExternalService.pdb
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.ExternalService\obj\Debug\Infra.ExternalService.csproj.AssemblyReference.cache
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.ExternalService\obj\Debug\Infra.ExternalService.csproj.CoreCompileInputs.cache
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.ExternalService\obj\Debug\Infra.ExternalService.dll
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.ExternalService\obj\Debug\Infra.ExternalService.pdb

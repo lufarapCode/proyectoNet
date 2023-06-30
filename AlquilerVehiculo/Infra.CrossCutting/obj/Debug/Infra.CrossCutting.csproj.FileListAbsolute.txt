@@ -1,0 +1,6 @@
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.CrossCutting\bin\Debug\Infra.CrossCutting.dll
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.CrossCutting\bin\Debug\Infra.CrossCutting.pdb
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.CrossCutting\obj\Debug\Infra.CrossCutting.csproj.AssemblyReference.cache
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.CrossCutting\obj\Debug\Infra.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.CrossCutting\obj\Debug\Infra.CrossCutting.dll
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.CrossCutting\obj\Debug\Infra.CrossCutting.pdb

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8ff6ff882f044a57baf3ecfe3aba29df" Name="Diagram1">
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.cabecera_alquiler" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.cliente" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.detalle_alquiler" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.empleado" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlquilerVehiculosModel.vehiculo" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK_cabecera_alquiler_cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK_cabecera_alquiler_empleado" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK_detalle_alquiler_cabecera_alquiler" ManuallyRouted="false" />
+        <AssociationConnector Association="AlquilerVehiculosModel.FK_detalle_alquiler_vehiculo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

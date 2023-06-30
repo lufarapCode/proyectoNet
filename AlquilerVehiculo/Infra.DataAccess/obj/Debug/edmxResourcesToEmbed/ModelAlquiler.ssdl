@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AlquilerVehiculosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cabecera_alquiler">
+    <Key>
+      <PropertyRef Name="id_CabAlquiler" />
+    </Key>
+    <Property Name="id_CabAlquiler" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_empleado" Type="int" />
+    <Property Name="id_cliente" Type="int" />
+    <Property Name="fecha_registro" Type="date" />
+    <Property Name="fecha_inicio" Type="date" />
+    <Property Name="fecha_entrega" Type="date" />
+    <Property Name="observacion" Type="varchar" MaxLength="200" />
+    <Property Name="estado" Type="int" />
+  </EntityType>
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="id_cliente" />
+    </Key>
+    <Property Name="id_cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="40" />
+    <Property Name="direccion" Type="varchar" MaxLength="40" />
+    <Property Name="telefono" Type="nchar" MaxLength="10" />
+    <Property Name="email" Type="varchar" MaxLength="40" />
+    <Property Name="identificacion" Type="varchar" MaxLength="50" />
+    <Property Name="estado" Type="int" />
+  </EntityType>
+  <EntityType Name="detalle_alquiler">
+    <Key>
+      <PropertyRef Name="id_detalle_alquiler" />
+    </Key>
+    <Property Name="id_detalle_alquiler" Type="int" Nullable="false" />
+    <Property Name="id_vehiculo" Type="int" />
+    <Property Name="cantidad" Type="int" />
+    <Property Name="observacion" Type="varbinary" MaxLength="50" />
+    <Property Name="estado" Type="int" />
+    <Property Name="id_cabAlquiler" Type="int" />
+  </EntityType>
+  <EntityType Name="empleado">
+    <Key>
+      <PropertyRef Name="id_empleado" />
+    </Key>
+    <Property Name="id_empleado" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" />
+    <Property Name="apellido" Type="varchar" MaxLength="50" />
+    <Property Name="direccion" Type="varchar" MaxLength="50" />
+    <Property Name="telefono" Type="varchar" MaxLength="50" />
+    <Property Name="estado" Type="int" />
+  </EntityType>
+  <EntityType Name="vehiculo">
+    <Key>
+      <PropertyRef Name="id_vehiculo" />
+    </Key>
+    <Property Name="id_vehiculo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="placa" Type="varchar" MaxLength="50" />
+    <Property Name="chasis" Type="varchar" MaxLength="50" />
+    <Property Name="marca" Type="varchar" MaxLength="50" />
+    <Property Name="modelo" Type="varchar" MaxLength="50" />
+    <Property Name="color" Type="varchar" MaxLength="50" />
+    <Property Name="anio" Type="int" />
+    <Property Name="estado" Type="int" />
+  </EntityType>
+  <Association Name="FK_cabecera_alquiler_cliente">
+    <End Role="cliente" Type="Self.cliente" Multiplicity="0..1" />
+    <End Role="cabecera_alquiler" Type="Self.cabecera_alquiler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="id_cliente" />
+      </Principal>
+      <Dependent Role="cabecera_alquiler">
+        <PropertyRef Name="id_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_cabecera_alquiler_empleado">
+    <End Role="empleado" Type="Self.empleado" Multiplicity="0..1" />
+    <End Role="cabecera_alquiler" Type="Self.cabecera_alquiler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="empleado">
+        <PropertyRef Name="id_empleado" />
+      </Principal>
+      <Dependent Role="cabecera_alquiler">
+        <PropertyRef Name="id_empleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detalle_alquiler_cabecera_alquiler">
+    <End Role="cabecera_alquiler" Type="Self.cabecera_alquiler" Multiplicity="0..1" />
+    <End Role="detalle_alquiler" Type="Self.detalle_alquiler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cabecera_alquiler">
+        <PropertyRef Name="id_CabAlquiler" />
+      </Principal>
+      <Dependent Role="detalle_alquiler">
+        <PropertyRef Name="id_cabAlquiler" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detalle_alquiler_vehiculo">
+    <End Role="vehiculo" Type="Self.vehiculo" Multiplicity="0..1" />
+    <End Role="detalle_alquiler" Type="Self.detalle_alquiler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="vehiculo">
+        <PropertyRef Name="id_vehiculo" />
+      </Principal>
+      <Dependent Role="detalle_alquiler">
+        <PropertyRef Name="id_vehiculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AlquilerVehiculosModelStoreContainer">
+    <EntitySet Name="cabecera_alquiler" EntityType="Self.cabecera_alquiler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="cliente" EntityType="Self.cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="detalle_alquiler" EntityType="Self.detalle_alquiler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="empleado" EntityType="Self.empleado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vehiculo" EntityType="Self.vehiculo" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_cabecera_alquiler_cliente" Association="Self.FK_cabecera_alquiler_cliente">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="cabecera_alquiler" EntitySet="cabecera_alquiler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_cabecera_alquiler_empleado" Association="Self.FK_cabecera_alquiler_empleado">
+      <End Role="empleado" EntitySet="empleado" />
+      <End Role="cabecera_alquiler" EntitySet="cabecera_alquiler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detalle_alquiler_cabecera_alquiler" Association="Self.FK_detalle_alquiler_cabecera_alquiler">
+      <End Role="cabecera_alquiler" EntitySet="cabecera_alquiler" />
+      <End Role="detalle_alquiler" EntitySet="detalle_alquiler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detalle_alquiler_vehiculo" Association="Self.FK_detalle_alquiler_vehiculo">
+      <End Role="vehiculo" EntitySet="vehiculo" />
+      <End Role="detalle_alquiler" EntitySet="detalle_alquiler" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

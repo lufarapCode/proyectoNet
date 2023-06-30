@@ -1,0 +1,6 @@
+C:\Users\Luis\source\repos\AlquilerVehiculo\Aplication.Aplication.DTO\bin\Debug\Aplication.Aplication.DTO.dll
+C:\Users\Luis\source\repos\AlquilerVehiculo\Aplication.Aplication.DTO\bin\Debug\Aplication.Aplication.DTO.pdb
+C:\Users\Luis\source\repos\AlquilerVehiculo\Aplication.Aplication.DTO\obj\Debug\Aplication.Aplication.DTO.csproj.AssemblyReference.cache
+C:\Users\Luis\source\repos\AlquilerVehiculo\Aplication.Aplication.DTO\obj\Debug\Aplication.Aplication.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Luis\source\repos\AlquilerVehiculo\Aplication.Aplication.DTO\obj\Debug\Aplication.Aplication.DTO.dll
+C:\Users\Luis\source\repos\AlquilerVehiculo\Aplication.Aplication.DTO\obj\Debug\Aplication.Aplication.DTO.pdb

@@ -1,0 +1,6 @@
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.EmailService\bin\Debug\Infra.EmailService.dll
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.EmailService\bin\Debug\Infra.EmailService.pdb
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.EmailService\obj\Debug\Infra.EmailService.csproj.AssemblyReference.cache
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.EmailService\obj\Debug\Infra.EmailService.csproj.CoreCompileInputs.cache
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.EmailService\obj\Debug\Infra.EmailService.dll
+C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.EmailService\obj\Debug\Infra.EmailService.pdb

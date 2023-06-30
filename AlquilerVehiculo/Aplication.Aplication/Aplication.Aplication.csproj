@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1FD15632-7CDA-4BF3-8F76-F3C6C8C7C793}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aplication.Aplication</RootNamespace>
+    <AssemblyName>Aplication.Aplication</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CabeceraAlquilerServices.cs" />
+    <Compile Include="Services\ClienteServices.cs" />
+    <Compile Include="Services\EmpleadoServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio.Model\Dominio.Model.csproj">
+      <Project>{13404a89-f04e-4f2b-b48d-1c6862ae2ff0}</Project>
+      <Name>Dominio.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Services\Dominio.Services.csproj">
+      <Project>{c0007bb7-02ea-49a2-b12d-29a4c95a9638}</Project>
+      <Name>Dominio.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infra.CrossCutting\Infra.CrossCutting.csproj">
+      <Project>{ece70275-fe36-4bb9-9e78-ee6b057645f4}</Project>
+      <Name>Infra.CrossCutting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infra.DataAccess\Infra.DataAccess.csproj">
+      <Project>{d2eb5c5e-764d-4346-b3e7-b902d823658d}</Project>
+      <Name>Infra.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infra.EmailService\Infra.EmailService.csproj">
+      <Project>{1bdebf00-936e-487d-9a05-e6755688c441}</Project>
+      <Name>Infra.EmailService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infra.ExternalService\Infra.ExternalService.csproj">
+      <Project>{1166d9e7-9a41-470d-9f58-e0a7e4ac5396}</Project>
+      <Name>Infra.ExternalService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

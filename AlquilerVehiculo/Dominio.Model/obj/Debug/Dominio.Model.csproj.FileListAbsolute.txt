@@ -1,0 +1,6 @@
+C:\Users\Luis\source\repos\AlquilerVehiculo\Dominio.Model\bin\Debug\Dominio.Model.dll
+C:\Users\Luis\source\repos\AlquilerVehiculo\Dominio.Model\bin\Debug\Dominio.Model.pdb
+C:\Users\Luis\source\repos\AlquilerVehiculo\Dominio.Model\obj\Debug\Dominio.Model.csproj.AssemblyReference.cache
+C:\Users\Luis\source\repos\AlquilerVehiculo\Dominio.Model\obj\Debug\Dominio.Model.csproj.CoreCompileInputs.cache
+C:\Users\Luis\source\repos\AlquilerVehiculo\Dominio.Model\obj\Debug\Dominio.Model.dll
+C:\Users\Luis\source\repos\AlquilerVehiculo\Dominio.Model\obj\Debug\Dominio.Model.pdb

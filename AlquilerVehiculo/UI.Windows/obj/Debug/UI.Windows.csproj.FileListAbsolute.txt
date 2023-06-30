@@ -1,0 +1,5 @@
+C:\Users\Luis\source\repos\AlquilerVehiculo\UI.Windows\obj\Debug\UI.Windows.csproj.AssemblyReference.cache
+C:\Users\Luis\source\repos\AlquilerVehiculo\UI.Windows\obj\Debug\UI.Windows.Form1.resources
+C:\Users\Luis\source\repos\AlquilerVehiculo\UI.Windows\obj\Debug\UI.Windows.Properties.Resources.resources
+C:\Users\Luis\source\repos\AlquilerVehiculo\UI.Windows\obj\Debug\UI.Windows.csproj.GenerateResource.cache
+C:\Users\Luis\source\repos\AlquilerVehiculo\UI.Windows\obj\Debug\UI.Windows.csproj.CoreCompileInputs.cache
