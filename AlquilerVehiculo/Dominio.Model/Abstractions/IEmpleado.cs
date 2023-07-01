@@ -9,5 +9,8 @@ namespace Dominio.Model.Abstractions
 {
     public interface IEmpleado : IBaseRepository<empleado>
     {
+        // select * from empleado where estado =1;
+        IEnumerable<empleado> ListarEmpleadosActivos();
+
     }
 }

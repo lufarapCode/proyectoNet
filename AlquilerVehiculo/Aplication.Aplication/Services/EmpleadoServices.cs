@@ -33,17 +33,23 @@ namespace Aplication.Aplication.Services
 
         public void InsertarEmpleado(empleado nuevoEmpleado)
         {
-            empleadoRepository.Modify(nuevoEmpleado);
+            empleadoRepository.Add(nuevoEmpleado);
         }
 
         public void ActualizarEmpleado(empleado nuevoEmpleado)
         {
-            empleadoRepository.Add(nuevoEmpleado);
+            empleadoRepository.Modify(nuevoEmpleado);
         }
 
         public void EliminarEmpleado(int id)
         {
             empleadoRepository.Delete(id);
+        }
+
+
+        public IEnumerable<empleado> ListarEmpleadoActivo()
+        {
+            return empleadoRepository.ListarEmpleadosActivos();
         }
 
 

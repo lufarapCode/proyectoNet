@@ -58,11 +58,11 @@
   <ItemGroup>
     <Compile Include="AplicationController\EmpleadoController.cs" />
     <Compile Include="AplicationController\VehiculoController.cs" />
-    <Compile Include="Forms\Form1.cs">
+    <Compile Include="Forms\FrmEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\FrmEmpleado.Designer.cs">
+      <DependentUpon>FrmEmpleado.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,8 +71,8 @@
     <Compile Include="ViewModel\DetalleAlquilerViewModel.cs" />
     <Compile Include="ViewModel\EmpleadoViewModel.cs" />
     <Compile Include="ViewModel\VehiculoViewModel.cs" />
-    <EmbeddedResource Include="Forms\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmEmpleado.resx">
+      <DependentUpon>FrmEmpleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

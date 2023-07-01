@@ -94,6 +94,41 @@ namespace UI.Windows.AplicationController
             
         }
 
+        public IEnumerable<EmpleadoViewModel> ListarEmpleadoActivo()
+        {
+
+            var empleadoList = servicesEmpleado.ListarEmpleadoActivo();
+            List<EmpleadoViewModel> resultadoViewModel = new List<EmpleadoViewModel>();
+
+            try
+            {
+                foreach (empleado item in empleadoList)
+                {
+                    resultadoViewModel.Add(new EmpleadoViewModel
+                    {
+                        Id_empleado = item.id_empleado,
+                        Nombre = item.nombre,
+                        Apellido = item.apellido,
+                        Direccion = item.direccion,
+                        Telefono = item.telefono,
+                        Estado = item.estado
+
+                    });
+
+                }
+                return resultadoViewModel;
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al actualizar empleado" + ex.Message);
+
+            }
+
+        }
+
+
+
 
     }
 }

@@ -3,7 +3,7 @@
  output extension=".cs"#><#
 
 
-const string inputFile = @"C:\Users\Luis\source\repos\AlquilerVehiculo\Infra.DataAccess\ModelAlquiler.edmx";
+const string inputFile = @"C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\AlquilerVehiculo\Infra.DataAccess\ModelAlquiler.edmx";
 var textTransform = DynamicTextTransformation.Create(this);
 var code = new CodeGenerationTools(this);
 var ef = new MetadataTools(this);
