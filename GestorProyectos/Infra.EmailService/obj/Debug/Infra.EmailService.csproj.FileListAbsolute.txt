@@ -1,0 +1,6 @@
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.EmailService\bin\Debug\Infra.EmailService.dll
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.EmailService\bin\Debug\Infra.EmailService.pdb
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.EmailService\obj\Debug\Infra.EmailService.csproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.EmailService\obj\Debug\Infra.EmailService.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.EmailService\obj\Debug\Infra.EmailService.dll
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.EmailService\obj\Debug\Infra.EmailService.pdb

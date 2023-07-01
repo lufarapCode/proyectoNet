@@ -21,7 +21,7 @@ namespace UI.windows.AplicationController
             servicesProyecto = new ProyectoServices();
         }
 
-        public bool InsertarEmpleado(ProyectoVistaModelo nuevoProyectoViewModel)
+        public bool InsertarProyecto(ProyectoVistaModelo nuevoProyectoViewModel)
         {
             Proyecto nuevoProyecto = new Proyecto();
             try

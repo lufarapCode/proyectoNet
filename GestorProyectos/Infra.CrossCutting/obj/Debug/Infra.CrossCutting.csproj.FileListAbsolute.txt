@@ -1,0 +1,6 @@
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.CrossCutting\bin\Debug\Infra.CrossCutting.dll
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.CrossCutting\bin\Debug\Infra.CrossCutting.pdb
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.CrossCutting\obj\Debug\Infra.CrossCutting.csproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.CrossCutting\obj\Debug\Infra.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.CrossCutting\obj\Debug\Infra.CrossCutting.dll
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.CrossCutting\obj\Debug\Infra.CrossCutting.pdb

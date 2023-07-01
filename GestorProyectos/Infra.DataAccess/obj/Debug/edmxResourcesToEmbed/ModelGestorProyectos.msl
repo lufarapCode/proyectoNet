@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="gestorProyectosModelStoreContainer" CdmEntityContainer="gestorProyectosEntities">
+    <EntitySetMapping Name="Asignacion">
+      <EntityTypeMapping TypeName="gestorProyectosModel.Asignacion">
+        <MappingFragment StoreEntitySet="Asignacion">
+          <ScalarProperty Name="idAsignacion" ColumnName="idAsignacion" />
+          <ScalarProperty Name="idDesarrollador" ColumnName="idDesarrollador" />
+          <ScalarProperty Name="idTarea" ColumnName="idTarea" />
+          <ScalarProperty Name="fechaAsignacion" ColumnName="fechaAsignacion" />
+          <ScalarProperty Name="estadoAsignacion" ColumnName="estadoAsignacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Desarrollador">
+      <EntityTypeMapping TypeName="gestorProyectosModel.Desarrollador">
+        <MappingFragment StoreEntitySet="Desarrollador">
+          <ScalarProperty Name="idDesarrollador" ColumnName="idDesarrollador" />
+          <ScalarProperty Name="nombreDesarrollador" ColumnName="nombreDesarrollador" />
+          <ScalarProperty Name="apellidoDesarrollador" ColumnName="apellidoDesarrollador" />
+          <ScalarProperty Name="emailDesarrollador" ColumnName="emailDesarrollador" />
+          <ScalarProperty Name="rolDesarrollador" ColumnName="rolDesarrollador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Etiqueta">
+      <EntityTypeMapping TypeName="gestorProyectosModel.Etiqueta">
+        <MappingFragment StoreEntitySet="Etiqueta">
+          <ScalarProperty Name="idEtiqueta" ColumnName="idEtiqueta" />
+          <ScalarProperty Name="nombreEtiqueta" ColumnName="nombreEtiqueta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proyecto">
+      <EntityTypeMapping TypeName="gestorProyectosModel.Proyecto">
+        <MappingFragment StoreEntitySet="Proyecto">
+          <ScalarProperty Name="idProyecto" ColumnName="idProyecto" />
+          <ScalarProperty Name="nombreProyecto" ColumnName="nombreProyecto" />
+          <ScalarProperty Name="descripcionProyecto" ColumnName="descripcionProyecto" />
+          <ScalarProperty Name="fechaInicioProyecto" ColumnName="fechaInicioProyecto" />
+          <ScalarProperty Name="FechaFinProyecto" ColumnName="FechaFinProyecto" />
+          <ScalarProperty Name="estadoProyecto" ColumnName="estadoProyecto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tarea">
+      <EntityTypeMapping TypeName="gestorProyectosModel.Tarea">
+        <MappingFragment StoreEntitySet="Tarea">
+          <ScalarProperty Name="idTarea" ColumnName="idTarea" />
+          <ScalarProperty Name="tituloTarea" ColumnName="tituloTarea" />
+          <ScalarProperty Name="descripcionTarea" ColumnName="descripcionTarea" />
+          <ScalarProperty Name="fechaVencimientoTarea" ColumnName="fechaVencimientoTarea" />
+          <ScalarProperty Name="prioridadTarea" ColumnName="prioridadTarea" />
+          <ScalarProperty Name="estadoTarea" ColumnName="estadoTarea" />
+          <ScalarProperty Name="IdProyecto" ColumnName="IdProyecto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tarea_Etiqueta">
+      <EntityTypeMapping TypeName="gestorProyectosModel.Tarea_Etiqueta">
+        <MappingFragment StoreEntitySet="Tarea_Etiqueta">
+          <ScalarProperty Name="idTarea_Etiqueta" ColumnName="idTarea_Etiqueta" />
+          <ScalarProperty Name="idTarea" ColumnName="idTarea" />
+          <ScalarProperty Name="idEtiqueta" ColumnName="idEtiqueta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

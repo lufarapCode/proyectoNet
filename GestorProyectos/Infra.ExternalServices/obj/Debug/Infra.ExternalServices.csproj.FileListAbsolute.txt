@@ -1,0 +1,6 @@
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.ExternalServices\bin\Debug\Infra.ExternalServices.dll
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.ExternalServices\bin\Debug\Infra.ExternalServices.pdb
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.ExternalServices\obj\Debug\Infra.ExternalServices.csproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.ExternalServices\obj\Debug\Infra.ExternalServices.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.ExternalServices\obj\Debug\Infra.ExternalServices.dll
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.ExternalServices\obj\Debug\Infra.ExternalServices.pdb

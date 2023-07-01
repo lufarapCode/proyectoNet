@@ -1,0 +1,16 @@
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\bin\Debug\Infra.DataAccess.dll.config
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\bin\Debug\Infra.DataAccess.dll
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\bin\Debug\Infra.DataAccess.pdb
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\bin\Debug\Dominio.Model.dll
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\bin\Debug\Dominio.Services.dll
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\bin\Debug\Dominio.Model.pdb
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\bin\Debug\Dominio.Services.pdb
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\obj\Debug\Infra.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\obj\Debug\Infra.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\obj\Debug\Infra.DataAccess.csproj.CopyComplete
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\obj\Debug\Infra.DataAccess.dll
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\Infra.DataAccess\obj\Debug\Infra.DataAccess.pdb
