@@ -1,6 +1,6 @@
 ﻿namespace UI.windows
 {
-    partial class formProyecto
+    partial class FrmProyecto
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -199,7 +199,7 @@
             this.Controls.Add(this.label1);
             this.Name = "formProyecto";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.formProyecto_Load);
+            this.Load += new System.EventHandler(this.frmProyecto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridProyecto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

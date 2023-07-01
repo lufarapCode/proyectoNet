@@ -15,7 +15,6 @@ C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.wind
 C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\bin\Debug\Infra.DataAccess.dll.config
 C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\bin\Debug\EntityFramework.xml
 C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\obj\Debug\UI.windows.csproj.AssemblyReference.cache
-C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\obj\Debug\UI.windows.formProyecto.resources
 C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\obj\Debug\UI.windows.FrmDesarrollador.resources
 C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\obj\Debug\UI.windows.Properties.Resources.resources
 C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\obj\Debug\UI.windows.csproj.GenerateResource.cache
@@ -25,3 +24,6 @@ C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.wind
 C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\obj\Debug\UI.windows.pdb
 C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\obj\Debug\UI.windows.Forms.FrmTarea.resources
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\obj\Debug\UI.windows.FrmProyecto.resources
+C:\Users\Luis\Desktop\Desarrollo\.Net\proyectoDesarrollo\GestorProyectos\UI.windows\obj\Debug\UI.windows.Forms.Principal.resources

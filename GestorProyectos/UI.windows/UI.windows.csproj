@@ -57,17 +57,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AplicationController\ProyectosController.cs" />
-    <Compile Include="Forms\FromProyecto.cs">
+    <Compile Include="AplicationController\TareaController.cs" />
+    <Compile Include="Forms\FrmTarea.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FromProyecto.Designer.cs">
-      <DependentUpon>FromProyecto.cs</DependentUpon>
+    <Compile Include="Forms\FrmTarea.Designer.cs">
+      <DependentUpon>FrmTarea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmProyecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmProyecto.Designer.cs">
+      <DependentUpon>FrmProyecto.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FrmDesarrollador.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FrmDesarrollador.Designer.cs">
       <DependentUpon>FrmDesarrollador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,11 +90,17 @@
     <Compile Include="ViewModel\ProyectoVistaModelo.cs" />
     <Compile Include="ViewModel\TareaVistaModelo.cs" />
     <Compile Include="ViewModel\Tarea_EtiquetaVistaModelo.cs" />
-    <EmbeddedResource Include="Forms\FromProyecto.resx">
-      <DependentUpon>FromProyecto.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmTarea.resx">
+      <DependentUpon>FrmTarea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmProyecto.resx">
+      <DependentUpon>FrmProyecto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmDesarrollador.resx">
       <DependentUpon>FrmDesarrollador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

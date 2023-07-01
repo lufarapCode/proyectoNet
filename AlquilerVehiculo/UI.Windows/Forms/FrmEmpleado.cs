@@ -51,7 +51,6 @@ namespace UI.Windows
         private void ListarEmpleadosActivos()
         {
             dgvListaEmpleados.DataSource = controllerEmpleado.ListarEmpleadoActivo();
-
         }
 
 

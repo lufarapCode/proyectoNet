@@ -12,12 +12,12 @@ using UI.windows.ViewModel;
 
 namespace UI.windows
 {
-    public partial class formProyecto : Form
+    public partial class FrmProyecto : Form
     {
         private ProyectosController controllerProyecto;
         private ProyectoVistaModelo viewModelProyecto;
 
-        public formProyecto()
+        public FrmProyecto()
         {
             InitializeComponent();
             controllerProyecto = new ProyectosController();
@@ -87,7 +87,7 @@ namespace UI.windows
 
         }
 
-        private void formProyecto_Load(object sender, EventArgs e)
+        private void frmProyecto_Load(object sender, EventArgs e)
         {
             ListarProyectos();
         }

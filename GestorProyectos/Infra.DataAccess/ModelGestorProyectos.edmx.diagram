@@ -6,11 +6,11 @@
     <edmx:Diagrams>
       <Diagram DiagramId="ed1620321d74465587ce4f9f66156881" Name="Diagram1">
         <EntityTypeShape EntityType="gestorProyectosModel.Asignacion" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="gestorProyectosModel.Desarrollador" Width="1.5" PointX="6.375" PointY="7" IsExpanded="true" />
-        <EntityTypeShape EntityType="gestorProyectosModel.Etiqueta" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gestorProyectosModel.Desarrollador" Width="1.5" PointX="5.375" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gestorProyectosModel.Etiqueta" Width="1.5" PointX="0.5" PointY="7.125" IsExpanded="true" />
         <EntityTypeShape EntityType="gestorProyectosModel.Proyecto" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
         <EntityTypeShape EntityType="gestorProyectosModel.Tarea" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="gestorProyectosModel.Tarea_Etiqueta" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gestorProyectosModel.Tarea_Etiqueta" Width="1.5" PointX="3.375" PointY="7.125" IsExpanded="true" />
         <AssociationConnector Association="gestorProyectosModel.FK_idDesarrollador" ManuallyRouted="false" />
         <AssociationConnector Association="gestorProyectosModel.FK_idTarea" ManuallyRouted="false" />
         <AssociationConnector Association="gestorProyectosModel.FK_idEtiqueta" ManuallyRouted="false" />
